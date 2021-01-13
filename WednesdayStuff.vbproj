@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7CA8BFD9-698C-4AC7-81FE-681B2A8BFAC6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>WednesdayStuff.Module1</StartupObject>
+    <StartupObject>WednesdayStuff.Operators</StartupObject>
     <RootNamespace>WednesdayStuff</RootNamespace>
     <AssemblyName>WednesdayStuff</AssemblyName>
     <FileAlignment>512</FileAlignment>
