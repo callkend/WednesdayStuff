@@ -1,4 +1,7 @@
-﻿Module Operators
+﻿Option Compare Text
+
+
+Module Operators
 
     Sub Main()
 
@@ -9,6 +12,21 @@
         Console.WriteLine(9 Mod 3)  'Divison that returns only the remainder
 
         Console.WriteLine(5 ^ 5)
+
+        Console.WriteLine("Got " & "Good")
+
+        'compare stuff
+        Console.WriteLine(3 > 4)
+        Console.WriteLine(3 < 4)
+        Console.WriteLine(3 = 4)
+        Console.WriteLine(3 <> 4)
+
+        Console.WriteLine("A" < "B")    'compares the ascii values of strings
+        Console.WriteLine("AAB" = "BAA") ' looks for the at the highest order and compares"
+
+        Console.WriteLine("abc" = "ABC")
+
+
 
         Console.ReadLine()
 
